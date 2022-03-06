@@ -25,7 +25,8 @@ namespace WebApplication3.Models
         public Nullable<byte> OrderStatus { get; set; }
         public  Service Service { get; set; }
         public ApplicationUser Client { get; set; }
-
+        public ApplicationUser writer { get; set; }
+        public ApplicationUser Profreader { get; set; }
 
     }
 }
