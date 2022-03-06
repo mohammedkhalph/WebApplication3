@@ -198,6 +198,18 @@
     <Compile Include="Migrations\202203031008222_AddTableAssFileToDb.designer.cs">
       <DependentUpon>202203031008222_AddTableAssFileToDb.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203060622572_addColumnToDB.cs" />
+    <Compile Include="Migrations\202203060622572_addColumnToDB.designer.cs">
+      <DependentUpon>202203060622572_addColumnToDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203060627417_AddRelationToEmployee.cs" />
+    <Compile Include="Migrations\202203060627417_AddRelationToEmployee.designer.cs">
+      <DependentUpon>202203060627417_AddRelationToEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203060629479_AddRelationToOrder.cs" />
+    <Compile Include="Migrations\202203060629479_AddRelationToOrder.designer.cs">
+      <DependentUpon>202203060629479_AddRelationToOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AssFile.cs" />
@@ -300,6 +312,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202203031008222_AddTableAssFileToDb.resx">
       <DependentUpon>202203031008222_AddTableAssFileToDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203060622572_addColumnToDB.resx">
+      <DependentUpon>202203060622572_addColumnToDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203060627417_AddRelationToEmployee.resx">
+      <DependentUpon>202203060627417_AddRelationToEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203060629479_AddRelationToOrder.resx">
+      <DependentUpon>202203060629479_AddRelationToOrder.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

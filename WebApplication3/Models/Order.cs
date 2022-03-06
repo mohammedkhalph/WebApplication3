@@ -24,6 +24,7 @@ namespace WebApplication3.Models
         public string ProfraderNotes { get; set; }
         public Nullable<byte> OrderStatus { get; set; }
         public  Service Service { get; set; }
+        public ApplicationUser Client { get; set; }
 
 
     }
